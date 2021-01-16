@@ -67,11 +67,11 @@ body > [type="checkbox"]:checked ~ main {
 
 .easybank_header__description__invitation {
     color: white;
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
-    padding-block-start: 10px;
-    padding-block-end: 10px;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    padding-block-start: 15px;
+    padding-block-end: 15px;
     border-radius: 20px;
-    background-color: #54be54;
+    background: linear-gradient(to right, limegreen, rgb(98, 221, 243));
 
 }
