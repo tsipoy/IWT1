@@ -5,6 +5,11 @@ body {
 html {
     font-family: 'Public Sans', sans-serif;
     color: rgb(37, 37, 66);
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    line-height: normal;
 }
 
 a {
