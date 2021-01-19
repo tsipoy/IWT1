@@ -1,0 +1,32 @@
+.easybank_footer {
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+    text-align: center;
+    padding-block-start: 32px;
+    padding-block-end: 40px;
+}
+
+.easybank_footer__navigation {
+    padding-block-start: 16px;    
+    padding-block-end: 16px;    
+}
+
+.easybank_footer__navigation__social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-block-end: 16px;
+}
+
+.easybank_footer__navigation__about__list {
+    padding-block-end: 16px;
+}
+.easybank_footer__link {
+    color: white;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 20px;
+    background: linear-gradient(to right, limegreen, rgb(81, 204, 226));
+}
