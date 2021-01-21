@@ -16,3 +16,33 @@
     padding-block-end: 16px;
 
 }
+
+@media (min-width: 800px) {
+    .easybank_articles_choose_easybank {
+        margin: auto;
+        max-width: 1000px;
+        text-align: start;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+        line-height: 1.88;
+    }
+
+    .easybank_articles_choose_easybank__header {
+        max-width: 60%;
+    }
+
+    .easybank_articles_choose_easybank__articles_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .easybank_articles_choose_easybank__usage {
+        padding-inline-end: 40px;    
+    }
+
+    .easybank_articles_choose_easybank__usage__heading {
+        padding-block-end: 16px;
+        padding-block-start: 16px;
+    }
+}
