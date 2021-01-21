@@ -129,6 +129,23 @@ li {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
 
+@media (min-width: 800px) {
+  .easybank_articles_second_section {
+    margin: auto;
+    max-width: 1000px; }
+  .easybank_articles_second_section__articles_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .easybank_articles_second_section__latest__articles__wrapper {
+    padding-inline-start: 15px;
+    padding-inline-end: 10px; }
+  .easybank_articles_second_section__latest__articles {
+    padding-inline-end: 24px; }
+  .easybank_articles_second_section .easybank_articles_second_section__latest__articles_images {
+    width: 100%;
+    height: 30%; } }
+
 .easybank_footer {
   background-color: #2d314d;
   color: white;
