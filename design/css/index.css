@@ -174,3 +174,25 @@ li {
   padding-block-end: 13px;
   border-radius: 20px;
   background: linear-gradient(to right, limegreen, #51cce2); }
+
+@media (min-width: 1000px) {
+  .easybank_footer {
+    text-align: start; }
+  .easybank_footer__footer_logo,
+  .easybank_footer__navigation {
+    margin: auto;
+    max-width: 900px; }
+  .easybank_footer__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; }
+  .easybank_footer__navigation__social_media {
+    padding-inline-end: 200px;
+    padding-block-start: 20px; }
+  .easybank_footer__navigation__social_media__list {
+    padding-inline-end: 16px; }
+  .easybank_footer__navigation__about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    margin-block-start: -47px; } }
